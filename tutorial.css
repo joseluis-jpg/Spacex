@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    min-height: 100vh;
+    background-color: #121212; /* Fondo oscuro */
+}
+
+/* Contenedor principal */
+main {
+    background-image: url('fondo2.png'); /* Imagen de fondo en el main */
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Sombra futurista */
+}
+
+/* Contenido del tutorial */
+.tutorial-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semitransparente */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.tutorial-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.tutorial-content h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.tutorial-content p, .tutorial-content li {
+    font-size: 1.1rem;
+    color: #bbb;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Listas */
+.tutorial-content ul {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+.tutorial-content li {
+    margin-bottom: 15px;
+}
+
+/* Enlaces */
+.tutorial-content a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #6a1b9a; /* Morado futurista */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tutorial-content a:hover {
+    background-color: #4a148c; /* Morado oscuro en hover */
+}

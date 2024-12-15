@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff; /* Texto blanco por defecto */
+    min-height: 100vh; /* Asegura que el body ocupe toda la altura de la pantalla */
+    background-color: #121212; /* Fondo oscuro */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#logo {
+    width: 80px;
+    height: auto;
+    border-radius: 50%; /* Redondear el logo */
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* Efecto de resplandor */
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #6a1b9a; /* Color futurista morado */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    background-color: #4a148c; /* Morado oscuro en hover */
+}
+main {
+    padding: 50px;
+    text-align: center;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro con transparencia */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+/* Formularios de contacto y donación */
+.contact-form, .donation {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    color: #fff;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6a1b9a; /* Color futurista morado */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a148c; /* Morado oscuro en hover */
+}
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    font-size: 1.2rem;
+    color: #6a1b9a;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: #4a148c;
+    color: #ffffff;
+}
+
+footer {
+    
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
+}
+
+footer div {
+    margin-bottom: 10px;
+}
+
+footer img {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+footer a:hover {
+    transform: scale(1.2);
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #bbb;
+    margin-top: 20px;
+}

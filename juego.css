@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212; /* Fondo más oscuro */
+    background-image: url('fondo.png'); /* Imagen de fondo */
+    background-size: 100%; /* Ajustar tamaño del fondo */
+    background-position: center; /* Centrar el fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameContainer {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-image: url('background.png');
+    background-size: cover;
+    overflow: hidden;
+    border: 5px solid purple; /* Bordes morados */
+    border-radius: 15px; /* Radio de borde */
+}
+
+#player {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+}
+
+#score, #lives {
+    position: absolute;
+    color: white;
+    font-size: 24px; /* Tamaño de fuente mejorado */
+    font-family: Arial, sans-serif; /* Fuente más estilizada */
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+#score {
+    top: 10px;
+    left: 10px;
+}
+
+#lives {
+    top: 10px;
+    right: 10px;
+}
+body a{
+    background-color:  purple; /* Bordes morados */
+    border-radius: 5px; /* Radio de borde */
+    align-self: center;
+    font-family: Arial, sans-serif; 
+    color: white;
+    padding: 10px; /* Espaciado interno */
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 30px;
+    transform: ;
+}
+body a:hover{
+    background-color:  rgb(75, 0, 75);
+}
